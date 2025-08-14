@@ -138,7 +138,7 @@ body {
 .header .cart-items-container {
     position: absolute;
     top: 100%;
-    right: 0%;
+    right: -100%;
     height: calc(100vh - 9.5rem);
     width: 35rem;
     background: #fff;
@@ -184,4 +184,61 @@ body {
 .header .cart-items-container .btn {
     width: 100%;
     text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+    
+    html{
+        font-size: 55%;
+    }
+    .header{
+        padding: 1.5rem 2rem;
+    }
+}
+
+@media (max-width: 991px) {
+    
+    #menu-btn {
+        display: inline-block;
+    }
+
+    .header .navbar {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background: #fff;
+        width: 30rem;
+        height: calc(100vh - 9.5rem);
+    }
+
+    .header .navbar a {
+        color: var(--black);
+        display: block;
+        padding: .5rem;
+        margin: 1.5rem;
+        font-size: 2rem;
+        
+    }
 }
